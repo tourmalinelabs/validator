@@ -1,6 +1,6 @@
 {
   "name": "the_validator",
-  "version": "1.8.2",
+  "version": "1.9.0",
   "description": "universal validation through a json interface",
   "main": "validator.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DubFriend/validator.git"
+    "url": "https://github.com/tourmalinelabs/validator.git"
   },
   "keywords": [
     "validation",
@@ -17,18 +17,18 @@
     "php",
     "json"
   ],
-  "author": "Brian Detering <BDeterin@gmail.com> (http://www.briandetering.net/)",
+  "author": "Brian Detering",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DubFriend/validator/issues"
+    "url": "https://github.com/tourmalinelabs/validator/issues"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "nodeunit": "~0.8.2"
+    "grunt": "^1.0.4",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "nodeunit": "^0.11.3"
   },
   "dependencies": {
-    "slugid": "^1.1.0"
+    "slugid": "^2.0.0"
   }
 }
