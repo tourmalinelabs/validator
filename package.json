@@ -1,10 +1,10 @@
 {
   "name": "the_validator",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "description": "universal validation through a json interface",
   "main": "validator.js",
   "scripts": {
-    "test": "nodeunit validatorTest.js"
+    "test": "nodeunit test/test.js"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,8 @@
     "url": "https://github.com/tourmalinelabs/validator/issues"
   },
   "devDependencies": {
-    "grunt": "^1.0.4",
-    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt": "^1.4.1",
+    "grunt-contrib-nodeunit": "^3.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "nodeunit": "^0.11.3"
   },
