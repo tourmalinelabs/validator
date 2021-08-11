@@ -1,0 +1,11 @@
+{
+  "printWidth": 80,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "parser": "babel",
+  "semi": true,
+  "tabWidth": 2,
+  "arrowParens": "avoid",
+  "files": ["./src/**/*.ts"],
+}

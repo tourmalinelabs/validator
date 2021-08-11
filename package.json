@@ -2,9 +2,10 @@
   "name": "the_validator",
   "version": "1.10.0",
   "description": "universal validation through a json interface",
-  "main": "validator.js",
+  "main": "./buid/validator.js",
   "scripts": {
-    "test": "nodeunit test/test.js"
+    "test": "grunt test",
+    "build": "grunt build"
   },
   "repository": {
     "type": "git",
@@ -23,12 +24,23 @@
     "url": "https://github.com/tourmalinelabs/validator/issues"
   },
   "devDependencies": {
+    "@types/node": "^16.4.13",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "del": "^6.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "grunt": "^1.4.1",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-nodeunit": "^3.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "nodeunit": "^0.11.3"
+    "grunt-ts": "^6.0.0-beta.22",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
   },
   "dependencies": {
+    "nodeunit": "^0.11.3",
     "slugid": "^2.0.0"
   }
 }

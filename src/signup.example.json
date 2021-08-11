@@ -1,0 +1,85 @@
+{
+	"username": [
+		{ "required": "username required" },
+		{ "minimumLength:3": "3 minimum" },
+		{ "maximumLength:10": "10 maximum" },
+		{ "regex:/^[a-zA-Z0-9]*$/": "alphanumeric only" }
+	],
+
+	"slugid": [
+		{ "slugid": "must be a valid slugid" }
+	],
+
+	"sometimes": [
+		{ "sometimes": "must be truthy if key exists" },
+		{ "minimumLength:3": "3 minimum"}
+	],
+
+	"illegalField": [
+		{ "illegalField": "illegal field" }
+	],
+
+	"lessThan": [
+		{ "<:0": "must be less than zero" }
+	],
+
+	"lessThanOrEqualTo": [
+		{ "<=:0": "must be less than or equal to zero" }
+	],
+
+	"greaterThan": [
+		{ ">:0": "must be greater than zero" }
+	],
+
+	"greaterThanOrEqualTo": [
+		{ ">=:0": "must be greater than or equal to zero" }
+	],
+
+	"equalTo": [
+		{ "==:0": "must be equal to zero" }
+	],
+
+	"ascii": [
+		{ "ascii": "must be ascii characters only" }
+	],
+
+	"email": [
+		{ "email": "bad email format" }
+	],
+
+	"url": [
+		{ "url": "bad url format" }
+	],
+
+	"uuid": [
+		{ "uuid": "bad uuid format" }
+	],
+
+	"match": [
+		{ "match:fieldToMatch": "values must match" }
+	],
+
+	"enumerated": [
+		{ "enumerated:a,b": "value not in enumerated set" }
+	],
+
+	"colonOnly": [
+		{"regex:/^[:]$/": "must be a ':'"}
+	],
+
+	"numeric": [
+		{"numeric": "must be numeric" }
+	],
+
+	"integer": [
+		{ "integer": "must be numbers only" }
+	],
+
+	"alphabetical": [
+		{ "alphabetical": "letters A-Z and a-z only" }
+	],
+
+	"alphanumeric": [
+		{ "alphanumeric": "letters and numbers only" }
+	]
+}
