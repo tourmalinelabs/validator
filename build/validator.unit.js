@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Validator = require('./validator');
-var testData = require('./signup.example.json');
-var slugid = require('slugid');
+const Validator = require('./validator');
+const testData = require('./signup.example.json');
+const slugid = require('slugid');
 var foreach = function (collection, callback) {
     for (var i in collection) {
         if (collection.hasOwnProperty(i)) {
@@ -10,11 +10,7 @@ var foreach = function (collection, callback) {
         }
     }
 };
-var union = function () {
-    var args = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        args[_i] = arguments[_i];
-    }
+var union = function (...args) {
     var united = {};
     foreach(arguments, function (object) {
         foreach(object, function (value, key) {

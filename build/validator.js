@@ -34,8 +34,7 @@
         });
         return mapped;
     };
-    var mapToObject = function (collection, callback, keyCallback) {
-        if (keyCallback === void 0) { keyCallback = null; }
+    var mapToObject = function (collection, callback, keyCallback = null) {
         var mapped = {};
         foreach(collection, function (value, key, coll) {
             key = keyCallback ? keyCallback(key, value) : key;
@@ -43,8 +42,7 @@
         });
         return mapped;
     };
-    var map = function (collection, callback, keyCallback) {
-        if (keyCallback === void 0) { keyCallback = null; }
+    var map = function (collection, callback, keyCallback = null) {
         return isArray(collection)
             ? mapToArray(collection, callback)
             : mapToObject(collection, callback, keyCallback);
