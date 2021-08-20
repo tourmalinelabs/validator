@@ -1,3 +1,4 @@
+/* eslint-disable no-var */
 // The Validator
 // https://github.com/DubFriend/validator
 (function () {
