@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const Validator = require('./validator');
 const testData = require('./signup.example.json');
 const slugid = require('slugid');
