@@ -1,6 +1,6 @@
 {
   "name": "the_validator",
-  "version": "1.11.0",
+  "version": "1.11.1",
   "description": "universal validation through a json interface",
   "main": "./build/validator.js",
   "scripts": {
